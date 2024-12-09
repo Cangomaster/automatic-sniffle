@@ -91,18 +91,64 @@ def main():
         menyVal = input("-> ")
 
         if menyVal == "1":
+            booksheet = input("Ange titeln som du vill söka efter: ") 
+        if booksheet == "Emil i Lönneberga" or booksheet == "emil i lönneberga":
+            print("Är tillgänglig. Boken är skriven av Astrid Lindgren")
+
+
+
+        if booksheet == "Barnen i Bullerbyn" or booksheet == "Barnen i bullerbyn":
+            print("Är tillgänglig. Boken är skriven av Astrid Lindgren")
+            
             pass
         elif menyVal == "2":
+            print(
+            """
+                                --- 2. Sök efter författare ---
+
+        ------------------------------------------------------------------------------
+            """)
             pass
         elif menyVal == "3":
+            elif menyVal == "3":
+            print(
+            """
+                                --- 3. Låna bok ---
+
+        ------------------------------------------------------------------------------
+            """)
             pass
         elif menyVal == "4":
+            print(
+            """
+                                --- 4. Återlämna bok ---
+
+        ------------------------------------------------------------------------------
+            """)
             pass
         elif menyVal == "5":
+            print(
+            """
+                                --- 5. Ta bort bok ---
+
+        ------------------------------------------------------------------------------
+            """)
             pass
         elif menyVal == "6":
+            print(
+            """
+                                --- 6. Lista alla böcker ---
+
+        ------------------------------------------------------------------------------
+            """)
             pass
         elif menyVal == "7":
+            print(
+            """
+                                --- 7. Sortera alla böcker ---
+
+        ------------------------------------------------------------------------------
+            """)
             pass
         elif menyVal == "8":
             pass
