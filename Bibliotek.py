@@ -1,3 +1,10 @@
+#Förråd av Neo
+
+varukorg = []
+användare_förråd = []
+bibliotek_förråd = []
+
+
 # ------------------------------- Information --------------------------------- #
 """
 Titel: Biblioteket
