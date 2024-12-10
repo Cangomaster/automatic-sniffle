@@ -82,9 +82,9 @@ def main():
                 Välkommen till biblioteks-simulatorn. Välj ett av alternativen nedan:
             1. Sök efter titel                                  2. Sök efter författare
             3. Låna bok                                         4. Återlämna bok
-            4. Lägg till ny bok                                 5. Ta bort bok
-            6. Ta bort bok                                      7. Lista alla böcker
-            8. Sortera böcker                                   q. Avsluta
+            5. Lägg till ny bok                                 6. Ta bort bok
+            7. Lista alla böcker                                8. Sortera böcker
+            q. Avsluta
         ---------------------------------------------------------------------------------------
         """)
 
@@ -129,7 +129,7 @@ def main():
         elif menyVal == "5":
             print(
             """
-                                --- 5. Ta bort bok ---
+                                --- 5. Lägg till ny bok ---
 
         ------------------------------------------------------------------------------
             """)
@@ -137,7 +137,7 @@ def main():
         elif menyVal == "6":
             print(
             """
-                                --- 6. Lista alla böcker ---
+                                --- 6. Ta bort bok ---
 
         ------------------------------------------------------------------------------
             """)
@@ -145,12 +145,17 @@ def main():
         elif menyVal == "7":
             print(
             """
-                                --- 7. Sortera alla böcker ---
+                                --- 7. Lista alla böcker ---
 
         ------------------------------------------------------------------------------
             """)
             pass
         elif menyVal == "8":
+            print(
+            """
+                                --- 8. Sortera böcker ---
+
+        ------------------------------------------------------------------------------
             pass
 
 print(
